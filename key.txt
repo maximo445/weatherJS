@@ -1,0 +1,5 @@
+e355210a830f5502dfb40f9ce8dc0db8
+
+img url format
+
+http://openweathermap.org/img/wn/10d@2x.png
