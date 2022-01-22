@@ -5,7 +5,7 @@ class Weather {
     }
 
     async get (city = 'London', state = 'fl') {
-        const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${this.key}`;
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${this.key}&units=imperial`;
         const req = new Request(url, {
             method: 'GET',
             mode: 'cors'
